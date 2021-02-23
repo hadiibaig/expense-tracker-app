@@ -1,0 +1,85 @@
+html , body , #root{
+  background-color: black;
+}
+.container{
+  background-color: #000006;
+  max-width: 600px;
+  min-height: 650px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px tan;
+  margin-top: 20px;
+  padding: 10 50px;
+
+}
+.title{
+  text-align: center;
+  color:black;
+  font-family: serif;
+  font: outline;
+  font-size: 46px;
+  background-color: tan;
+}
+.amount-class{
+  display: flex;
+  justify-content: space-around;
+  background-color: #000008;
+  box-shadow: 0 0 8px silver;
+  color: tan;
+  margin: 10px;
+  font-family: verdana;
+  font-size: 16px;
+  padding: 2px;
+}
+h2{
+  background-color: #000008;
+  font-family: sans-serif;
+  color: tan;
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 0 8px silver;
+}
+.form-class{
+  background-color: #000008;
+  font-family: verdana;
+  color: tan;
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 0 8px silver;
+}
+.label-class{
+  margin: 20px;
+  font-size: 20px;
+  font-family: verdana;
+}
+.input-class{
+  background-color: wheat;
+  color: black;
+  padding: 3%;
+}
+.submit-class{
+  margin: 10px;
+  position: relative;
+  padding: 2px;
+  background-color: black;
+  font-family: Arial;
+  font-size: 80%;
+  text-align: center;
+  text-emphasis: inherit;
+  box-shadow: 0 0 3px silver;
+  color: tan;
+}
+.list{
+  margin: 10;
+  padding: 10;
+  background-color: #000006;
+  color: tan;
+}
+.list > li{
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 10px tan;
+  padding: 10px 2px;
+  margin: 10px 0;
+}
